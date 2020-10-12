@@ -10,8 +10,8 @@ def backstreet_singer(obj: Union[Dict[str, str], str]):
                 key, value = value, key
             print(key)
             print(value)
-    if flag:
-        print("I want it that way")
+        if flag:
+            print("I want it that way")
     print("\n")
 
 if __name__ == "__main__":
