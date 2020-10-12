@@ -1,4 +1,4 @@
-from typing import Dict, Dict
+from typing import Dict
 
 def what_is_love(dct: Dict[str, str]):
     for key, value in dct.items():
