@@ -10,7 +10,7 @@
 2. Enable executing of the .sh script (`chmod +x i_want_it_that_way.sh`)
 3. Run it (`./i_want_it_that_way.sh`)
 
-P.S: USE PYTHON 3 INTERPETER!
+P.S: USE PYTHON 3.9 INTERPETER!
 
 # Why?
 ![](https://media.giphy.com/media/IeFNlbZymiaas/giphy.gif)
