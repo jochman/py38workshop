@@ -1,11 +1,18 @@
-from typing import Dict
-import json
+from typing import Dict, Union
 
-def print_json(obj: dict[str, str]):
-    for key, value in obj.items():
-        print(key)
-        print(value)
-
+def backstreet_singer(obj: Union[Dict[str, str], str]):
+    if isinstance(obj, str):
+        print(obj)
+    else:
+        flag = False
+        for key, value in obj.items():
+            if flag := value == "Tell me why":
+                key, value = value, key
+            print(key)
+            print(value)
+        if flag:
+            print("I want it that way")
+    print("\n")
 
 if __name__ == "__main__":
-    print("Yeah\nOh yeah")
+    backstreet_singer("Yeah\nOh yeah")
